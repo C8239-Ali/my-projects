@@ -37,8 +37,8 @@ def admin():
 
 # Create a function named greet which returns formatted inline html string 
 # and assign to the dynamic route of ('/<name>')
- @app.route('/<name>')
- def greet(name):
+@app.route('/<name>')
+def greet(name):
      greet_format=f"""
  <!DOCTYPE html>
  <html>
